@@ -68,6 +68,7 @@
  * ------------------------------------------------------------------- */
 html {
   font-size: 10px;
+  
 }
 
 @media only screen and (max-width:400px) {
@@ -84,7 +85,7 @@ body {
 
 body {
   background: #121619;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 1.8rem;
   font-style: normal;
   font-weight: normal;
@@ -123,7 +124,7 @@ a:active {
  * ------------------------------------------------------------------- */
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: "Chivo", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   color: #000000;
   text-rendering: optimizeLegibility;
 }
@@ -175,7 +176,7 @@ h3, .h3 {
 }
 
 h4, .h4 {
-  font-size: 2.1rem;
+  font-size: 2rem;
   line-height: 1.333;
 }
 
@@ -197,16 +198,16 @@ p img {
 
 p.lead {
   font-family: "Nunito Sans", sans-serif;
-  font-weight: 300;
-  font-size: 2.8rem;
+  font-weight: 700;
+  font-size: 3rem;
   line-height: 1.571;
-  margin-bottom: 3.6rem;
-  color: #898989;
+  margin-bottom: 6rem;
+  color: #ffffff;
 }
 
 @media only screen and (max-width:1200px) {
   p.lead {
-    font-size: 2.6rem;
+    font-size: 2rem;
   }
 
 }
@@ -963,7 +964,7 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
   display: inline-block;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Chivo", sans-serif;
   font-weight: 700;
   font-size: 1.4rem;
   text-transform: uppercase;
@@ -1011,6 +1012,7 @@ input[type="button"].btn--primary {
   border-color: #535ffd;
   color: #ffffff;
   border-radius: 50px;
+  align-items: center;
 }
 
 .btn.btn--primary:hover,
@@ -1470,17 +1472,17 @@ input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 .display-1 {
   font-family: "Chivo", sans-serif;
-  font-weight: 600;
-  font-size: 5.5rem;
+  font-weight: 700;
+  font-size: 4.6rem;
   line-height: 1.236;
   letter-spacing: -0.03rem;
-  margin-top: 0;
+  margin-top: 2rem;
   margin-bottom: 2.8rem;
 }
 
 .display-2 {
   font-family: "Chivo", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 4.6rem;
   line-height: 1.217;
   margin-top: 0;
@@ -1488,8 +1490,8 @@ input::-moz-focus-inner {
 }
 
 .item-title {
-  font-weight: 600;
-  font-size: 2.8rem;
+  font-weight: 500;
+  font-size: 2rem;
   line-height: 1.286;
   margin-top: 0;
   margin-bottom: 2rem;
@@ -1504,7 +1506,6 @@ input::-moz-focus-inner {
 }
 
 .section-header.has-bottom-sep {
-  padding-bottom: 2.8rem;
   position: relative;
   text-align: center;
 }
@@ -2082,33 +2083,34 @@ input::-moz-focus-inner {
   z-index: 4;
   display: table-cell;
   vertical-align: bottom;
-  padding-top: 24.8rem;
+  padding-top: 10em;
+  /* margin-top: 10em; */
   width: 100%;
   position: relative;
 }
 
+.home-content h1 div{
+  /* padding-left: 40rem; */
+  font-size: 8rem;
+  font-weight: 700;
+  width: 14em;
+  overflow: hidden;
+  text-align: center;
+  /* align-items: center; */
+}
+
 .home-content h1 {
   font-family: "Chivo", sans-serif;
-  font-weight: 600;
-  font-size: 7.2rem;
+  font-weight: 700;
+  font-size: 20rem;
   line-height: 1.222;
   color: #ffffff;
   margin-top: 0;
-  margin-bottom: 0;
-  padding-top: 3.2rem;
-  position: relative;
+  margin-bottom: 10rem;
+  position: relative; 
+  /* padding-left: 50rem; */
 }
 
-.home-content h1::before {
-  display: block;
-  content: "";
-  height: 2px;
-  width: 8rem;
-  background-color: #535ffd;
-  position: absolute;
-  left: 8px;
-  top: 0;
-}
 
 .home-content h3 {
   font-family: "Nunito Sans", sans-serif;
@@ -2150,6 +2152,7 @@ input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 .home-content__btn-wrap {
   margin-top: 7.2rem;
+
 }
 
 .home-content__btn-wrap .home-content__btn {
@@ -2418,11 +2421,16 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width:1300px) {
   .home-content {
-    padding-top: 20rem;
+    padding-top: 1rem;
   }
-
+/* 
   .home-content h1 {
-    font-size: 5.6rem;
+    font-size: 5rem;
+    font-weight: 500;
+  } */
+
+  .home-content span {
+    font-size: 3.6rem;
   }
 
   .home-content h3 {
@@ -2454,8 +2462,10 @@ html.no-csstransitions .home-content__main {
   .home-content br {
     display: none;
   }
-
-  .home-content h1 {
+  .home-content h1{
+    width: 8rem;
+  }
+  .home-content h1 span {
     font-size: 7.2rem;
     padding-top: 0;
   }
@@ -2473,6 +2483,7 @@ html.no-csstransitions .home-content__main {
     max-width: 600px;
     padding-bottom: 44rem;
     text-align: center;
+    margin-top: 10%;
   }
 
   .home-content__left {
@@ -2602,7 +2613,7 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width:400px) {
   .home-content {
-    padding-top: 15.2rem;
+    padding-top: 8rem;
   }
 
   .home-content h1 {
@@ -2640,16 +2651,75 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 .s-about {
-  padding-top: 23.2rem;
+  background-image: url(./images);
+  color: rgb(248, 248, 248);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: sapce-between;
+  min-height: 850px;
+  padding: 100px;
+  position: relative;
+  /* background-color: rgb(90, 30, 203);
+    color: rgb(248, 248, 248);
+    width: 100vw;
+    min-height: 100vh;
+    position: relative;
+    padding: 240px 200px 180px;
+    background-image: url(https://web-assets.cred.club/_next/assets/images/home-page/security-bg.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    justify-content: space-between; */
+
+  /* padding-top: 23.2rem;
   padding-bottom: calc((62.4rem/2) + 6.4rem);
   background-color: #535FFD;
   color: rgba(255, 255, 255, 0.8);
   overflow: hidden;
   position: relative;
+  height: 5rem; */
+}
+
+.display-1{
+  box-sizing: border-box;
+  display: block;
+  font-size: 70px;
+  letter-spacing: -4.85px;
+  max-width: 670px;
+  white-space: normal;
+}
+
+#display-begin{
+  box-sizing: border-box;
+  display: block;
+  font-size: 80px;
+  letter-spacing: -5.15px;
+  line-height: 96px;
+  max-width: 250%;
+  overflow-wrap: break-word;
+} 
+
+ #display1{
+  box-sizing: border-box;
+  display: block;
+  font-size: 30px;
+  letter-spacing: -1.85px;
+  max-width: 670px;
+  white-space: normal;
+}
+
+.main-div{
+  padding-top: 10px;
 }
 
 .s-about .section-header.has-bottom-sep::before {
   background-color: rgba(255, 255, 255, 0.1);
+}
+
+#display1{
+  color: black;
 }
 
 .s-about .display-1,
@@ -2657,8 +2727,15 @@ html.no-csstransitions .home-content__main {
   color: #ffffff;
 }
 
-.s-about p.lead {
-  color: rgba(255, 255, 255, 0.6);
+.lead{
+  box-sizing: border-box;
+  display: block;
+  font-size: 32px;
+  letter-spacing: -0.2px;
+  line-height: 38px;
+  margin-top: 16px;
+  max-width: 630px;
+  color: #ffffff;
 }
 
 
@@ -2693,7 +2770,7 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 @media only screen and (max-width:1400px) {
   .s-about {
-    padding-bottom: calc((62.4rem/2) + 9.6rem);
+    padding-bottom: calc((62.4rem/2));
   }
 
 }
@@ -2869,7 +2946,7 @@ html.no-csstransitions .home-content__main {
  * ## process
  * ------------------------------------------------------------------- */
 .process-wrap {
-  margin-top: 12rem;
+  margin-top: 18rem;
 }
 
 .process-wrap h2 {
@@ -2919,7 +2996,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .process .step {
-  padding: 0 40px 1.5rem 60px;
+  padding: 0 60px 2rem 80px;
   position: relative;
   min-height: 240px;
 }
@@ -3158,7 +3235,7 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 .s-features {
-  padding-top: 19.2rem;
+  padding-top: 16rem;
   padding-bottom: 20rem;
   background-color: #ffffff;
   overflow: hidden;
@@ -3189,7 +3266,7 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 @media only screen and (max-width:1200px) {
   .s-features {
-    padding-top: 18.4rem;
+    padding-top: 18rem;
   }
 
   .features {
@@ -3596,8 +3673,8 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 .s-download {
-  padding-top: 18.4rem;
-  background-color: #535ffd;
+  padding-top: 3rem;
+  background-color: #ffffff;
   color: rgba(255, 255, 255, 0.8);
   overflow: hidden;
   position: relative;
@@ -3614,7 +3691,7 @@ html.no-csstransitions .home-content__main {
 
 .s-download .download-badges {
   list-style: none;
-  margin: 1.2rem 0 0 -6px;
+  margin: 1.2rem 0 13.2rem -6px;
 }
 
 .s-download .download-badges li {
@@ -3726,7 +3803,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .s-footer .display-1 {
-  color: #535ffd;
+  color: #ffffff;
 }
 
 .s-footer h4 {

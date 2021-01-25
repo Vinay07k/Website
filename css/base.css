@@ -436,7 +436,7 @@ textarea {
  * -------------------------------------- */
 [class*="col-"] {
   float: left;
-  padding: 0 20px;
+  padding: 0 40px;
 }
 
 [class*="col-"] + [class*="col-"].end {
@@ -504,6 +504,8 @@ textarea {
 .col-twelve,
 .col-full {
   width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 
@@ -937,7 +939,7 @@ textarea {
 
 .text-center {
   text-align: center;
-}
+} 
 
 .text-left {
   text-align: left;
