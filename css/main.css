@@ -86,10 +86,10 @@ body {
 body {
   background: #121619;
   font-family: 'Nunito Sans', sans-serif;
-  font-size: 1.8rem;
+  font-size: 2rem;
+  letter-spacing: -1.2px;
   font-style: normal;
-  font-weight: normal;
-  line-height: 1.778;
+  font-weight: 700;
   color: #545454;
   margin: 0;
   padding: 0;
@@ -123,10 +123,13 @@ a:active {
  * 
  * ------------------------------------------------------------------- */
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "Chivo", sans-serif;
-  font-weight: 500;
-  color: #000000;
-  text-rendering: optimizeLegibility;
+  font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.571;
+    margin-bottom: 6rem;
+    color: #ffffff;
+    letter-spacing: -1.2px;
 }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
@@ -964,13 +967,12 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
   display: inline-block;
-  font-family: "Chivo", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   font-weight: 700;
   font-size: 1.4rem;
-  text-transform: uppercase;
-  letter-spacing: .4rem;
+  letter-spacing: 0.0rem;
   height: 6rem;
-  line-height: 5.6rem;
+  line-height: 1.571;
   padding: 0 3.2rem;
   margin: 0 .4rem 1.6rem 0;
   color: #000000;
@@ -1008,26 +1010,14 @@ button.btn--primary,
 input[type="submit"].btn--primary,
 input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
-  background: #535ffd;
-  border-color: #535ffd;
-  color: #ffffff;
+  background: #ffffff;
+  border-color: #ffffff;
+  color: #000000;
   border-radius: 50px;
   align-items: center;
 }
 
-.btn.btn--primary:hover,
-button.btn--primary:hover,
-input[type="submit"].btn--primary:hover,
-input[type="reset"].btn--primary:hover,
-input[type="button"].btn--primary:hover,
-.btn.btn--primary:focus,
-button.btn--primary:focus,
-input[type="submit"].btn--primary:focus,
-input[type="reset"].btn--primary:focus,
-input[type="button"].btn--primary:focus {
-  background: #2b1692;
-  border-color: #2b1692;
-}
+
 
 /* button modifiers
  * ------------------------------------------------- */
@@ -1478,6 +1468,7 @@ input::-moz-focus-inner {
   letter-spacing: -0.03rem;
   margin-top: 2rem;
   margin-bottom: 2.8rem;
+  max-width: 800px;
 }
 
 .display-2 {
@@ -1611,11 +1602,19 @@ input::-moz-focus-inner {
 
 @media only screen and (max-width:800px) {
   .display-1 {
-    font-size: 4.4rem;
+    font-size: 3.8rem !important;
+    letter-spacing: normal !important;
+    line-height: normal !important;
+  }
+
+  .lead{
+    font-size: 1.8rem !important;
+    letter-spacing: normal !important;
+    line-height: normal !important;
   }
 
   .display-2 {
-    font-size: 4rem;
+    font-size: 2.4rem;
   }
 
   .display-2 br {
@@ -1641,7 +1640,9 @@ input::-moz-focus-inner {
 
 @media only screen and (max-width:500px) {
   .display-1 {
-    font-size: 4.2rem;
+    font-size: 3.8rem !important;
+    letter-spacing: normal !important;
+    line-height: normal !important;
   }
 
   .display-2 {
@@ -1652,11 +1653,20 @@ input::-moz-focus-inner {
 
 @media only screen and (max-width:400px) {
   .display-1 {
-    font-size: 3.8rem;
+    font-size: 3.2rem !important;
+    letter-spacing: normal !important;
+    line-height: normal !important;
+    letter-spacing: -4.15;
   }
 
   .display-2 {
-    font-size: 3.6rem;
+    font-size: 1.8rem;
+  }
+
+  .lead{
+    font-size: 1.8rem !important;
+    letter-spacing: normal !important;
+    line-height: normal !important;
   }
 
   .section-header.has-bottom-sep::before {
@@ -1667,11 +1677,11 @@ input::-moz-focus-inner {
 
 @media only screen and (max-width:350px) {
   .display-1 {
-    font-size: 3.6rem;
+    font-size: 1.8rem;
   }
 
   .display-2 {
-    font-size: 3.4rem;
+    font-size: 1.8rem;
   }
 
 }
@@ -2156,8 +2166,8 @@ input::-moz-focus-inner {
 }
 
 .home-content__btn-wrap .home-content__btn {
-  width: 30rem;
-  height: 6.4rem !important;
+  width: 25rem;
+  height: 6rem !important;
   line-height: 6rem !important;
   margin-right: 0;
 }
@@ -2694,20 +2704,21 @@ html.no-csstransitions .home-content__main {
 #display-begin{
   box-sizing: border-box;
   display: block;
-  font-size: 80px;
-  letter-spacing: -5.15px;
+  font-size: 90px;
+  letter-spacing: -4.85px;
   line-height: 96px;
   max-width: 250%;
   overflow-wrap: break-word;
 } 
 
  #display1{
-  box-sizing: border-box;
-  display: block;
-  font-size: 30px;
-  letter-spacing: -1.85px;
-  max-width: 670px;
-  white-space: normal;
+  font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.571;
+    margin-bottom: 0rem;
+    color: #000000;
+    letter-spacing: -1.2px;
 }
 
 .main-div{
@@ -2731,9 +2742,8 @@ html.no-csstransitions .home-content__main {
   box-sizing: border-box;
   display: block;
   font-size: 32px;
-  letter-spacing: -0.2px;
+  letter-spacing: -1.2px;
   line-height: 38px;
-  margin-top: 16px;
   max-width: 630px;
   color: #ffffff;
 }
@@ -3673,7 +3683,7 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 .s-download {
-  padding-top: 3rem;
+  padding-top: 5rem;
   background-color: #ffffff;
   color: rgba(255, 255, 255, 0.8);
   overflow: hidden;
@@ -3691,7 +3701,7 @@ html.no-csstransitions .home-content__main {
 
 .s-download .download-badges {
   list-style: none;
-  margin: 1.2rem 0 13.2rem -6px;
+  margin: -2.2rem 0 6.2rem -6px;
 }
 
 .s-download .download-badges li {
@@ -3709,7 +3719,16 @@ html.no-csstransitions .home-content__main {
   color: transparent;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 232px 72px;
+  background-size: 182px 52px;
+}
+
+.logo{
+  background-image: url(https://raw.githubusercontent.com/Vinay07k/DiscoverE_Website/main/images/college%20logo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 4%;
+    height: 70px;
+    width: 100%;
 }
 
 .s-download .download-badges li a.badge-appstore {
@@ -3750,14 +3769,14 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width:1000px) {
   .s-download {
-    padding-top: 17.2rem;
+    padding-top: 6.2rem;
   }
 
 }
 
 @media only screen and (max-width:800px) {
   .s-download {
-    padding-top: 16rem;
+    padding-top: 2.2rem;
   }
 
   .s-download .download-content__badges li a {
@@ -3770,7 +3789,7 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width:600px) {
   .s-download {
-    padding-top: 14.8rem;
+    padding-top: 6.2rem;
   }
 
   .s-download .download-bottom-image {
@@ -3786,7 +3805,7 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 .s-footer {
-  padding-top: 18.4rem;
+  padding-top: 12.4rem;
   padding-bottom: 4.8rem;
   color: rgba(255, 255, 255, 0.4);
   position: relative;
@@ -4114,7 +4133,7 @@ html.no-csstransitions .home-content__main {
 @media only screen and (max-width:600px) {
   .s-footer {
     padding-top: 12rem;
-    padding-bottom: 4rem;
+    padding-bottom: 14rem;
   }
 
   .s-footer h4 {
