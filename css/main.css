@@ -200,7 +200,7 @@ p img {
 }
 
 p.lead {
-  font-family: "Nunito Sans", sans-serif;
+  font-family:  "Gilroy";
   font-weight: 700;
   font-size: 3rem;
   line-height: 1.571;
@@ -967,9 +967,9 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
   display: inline-block;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Gilroy", sans-serif;
   font-weight: 700;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   letter-spacing: 0.0rem;
   height: 6rem;
   line-height: 1.571;
@@ -1461,7 +1461,7 @@ input::-moz-focus-inner {
  * ## display headings
  * ------------------------------------------------------------------- */
 .display-1 {
-  font-family: "Chivo", sans-serif;
+  font-family: "Gilroy";
   font-weight: 700;
   font-size: 4.6rem;
   line-height: 1.236;
@@ -1472,7 +1472,7 @@ input::-moz-focus-inner {
 }
 
 .display-2 {
-  font-family: "Chivo", sans-serif;
+  font-family: "Gilroy";
   font-weight: 500;
   font-size: 4.6rem;
   line-height: 1.217;
@@ -1649,6 +1649,12 @@ input::-moz-focus-inner {
     font-size: 3.8rem;
   }
 
+  .lead{
+    font-size: 1.8rem !important;
+    letter-spacing: normal !important;
+    line-height: normal !important;
+  }
+
 }
 
 @media only screen and (max-width:400px) {
@@ -1656,17 +1662,16 @@ input::-moz-focus-inner {
     font-size: 3.2rem !important;
     letter-spacing: normal !important;
     line-height: normal !important;
-    letter-spacing: -4.15;
   }
 
   .display-2 {
     font-size: 1.8rem;
   }
 
-  .lead{
+  p.lead{
     font-size: 1.8rem !important;
-    letter-spacing: normal !important;
     line-height: normal !important;
+    font-weight: 600 !important;
   }
 
   .section-header.has-bottom-sep::before {
@@ -2167,8 +2172,8 @@ input::-moz-focus-inner {
 
 .home-content__btn-wrap .home-content__btn {
   width: 25rem;
-  height: 6rem !important;
-  line-height: 6rem !important;
+  height: 5.6rem !important;
+  line-height: 5.6rem !important;
   margin-right: 0;
 }
 
@@ -2693,10 +2698,10 @@ html.no-csstransitions .home-content__main {
 }
 
 .display-1{
+  font-family: "Gilroy";
   box-sizing: border-box;
   display: block;
   font-size: 70px;
-  letter-spacing: -4.85px;
   max-width: 670px;
   white-space: normal;
 }
@@ -2704,16 +2709,16 @@ html.no-csstransitions .home-content__main {
 #display-begin{
   box-sizing: border-box;
   display: block;
+  font-family: "Gilroy";
   font-size: 90px;
-  letter-spacing: -4.85px;
   line-height: 96px;
   max-width: 250%;
   overflow-wrap: break-word;
 } 
 
  #display1{
-  font-family: "Nunito Sans", sans-serif;
-    font-weight: 700;
+  font-family: "Gilroy";
+    font-weight: 600;
     font-size: 3rem;
     line-height: 1.571;
     margin-bottom: 0rem;
@@ -2738,11 +2743,13 @@ html.no-csstransitions .home-content__main {
   color: #ffffff;
 }
 
-.lead{
+p.lead{
   box-sizing: border-box;
+  font-family: "Gilroy";
   display: block;
-  font-size: 32px;
-  letter-spacing: -1.2px;
+  font-weight: 700;
+  font-size: 25px;
+  letter-spacing: normal;
   line-height: 38px;
   max-width: 630px;
   color: #ffffff;
@@ -3723,9 +3730,9 @@ html.no-csstransitions .home-content__main {
 }
 
 .logo{
-  background-image: url(https://raw.githubusercontent.com/Vinay07k/DiscoverE_Website/main/images/college%20logo.png);
+  background-image: url(https://raw.githubusercontent.com/Vinay07k/Frenzy_chatApp/master/college%20logo.png);
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center;
     background-size: 4%;
     height: 70px;
     width: 100%;
