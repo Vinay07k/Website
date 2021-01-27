@@ -180,6 +180,7 @@ h3, .h3 {
 
 h4, .h4 {
   font-size: 2rem;
+  letter-spacing: normal;
   line-height: 1.333;
 }
 
@@ -4127,6 +4128,15 @@ p.lead{
 }
 
 @media only screen and (max-width:800px) {
+  
+  .footer__bottom {
+    font-weight: 600;
+    font-family: "Gilroy";
+    letter-spacing: normal;
+    font-size: 1.4rem;
+    line-height: 1.882;
+  }
+  
   .s-footer {
     padding-top: 14.8rem;
   }
@@ -4138,6 +4148,15 @@ p.lead{
 }
 
 @media only screen and (max-width:600px) {
+  
+  .footer__bottom {
+    font-weight: 600;
+    font-family: "Gilroy";
+    letter-spacing: normal;
+    font-size: 1.4rem;
+    line-height: 1.882;
+  }
+  
   .s-footer {
     padding-top: 12rem;
     padding-bottom: 14rem;
@@ -4185,6 +4204,15 @@ p.lead{
 }
 
 @media only screen and (max-width:400px) {
+  
+  .footer__bottom {
+    font-weight: 600;
+    font-family: "Gilroy";
+    letter-spacing: normal;
+    font-size: 1.2rem;
+    line-height: 1.882;
+  }
+  
   .ss-copyright span {
     font-size: 16px;
   }
