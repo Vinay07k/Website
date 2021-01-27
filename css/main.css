@@ -4115,7 +4115,10 @@ p.lead{
  * ------------------------------------------------------------------- */
 @media only screen and (max-width:1200px) {
   .footer__bottom {
-    font-size: 1.7rem;
+    font-weight: 600;
+    font-family: "Gilroy";
+    letter-spacing: normal;
+    font-size: 1.6rem;
     line-height: 1.882;
   }
 
