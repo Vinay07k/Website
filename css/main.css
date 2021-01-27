@@ -85,11 +85,11 @@ body {
 
 body {
   background: #121619;
-  font-family: 'Nunito Sans', sans-serif;
-  font-size: 2rem;
-  letter-spacing: -1.2px;
+  font-family: "Gilroy";
+  font-size: 1.6rem;
+  letter-spacing: normal;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   color: #545454;
   margin: 0;
   padding: 0;
