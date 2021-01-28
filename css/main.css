@@ -2849,15 +2849,18 @@ p.lead{
 
 @media only screen and (max-width:500px) {
   .s-about {
-    padding-bottom: calc((52rem/2) + 9.6rem);
+    padding-top: 10rem;
+    padding-bottom: calc((32rem/2));
+    padding: 50px;
   }
 
 }
 
 @media only screen and (max-width:400px) {
   .s-about {
-    padding-top: 14rem;
-    padding-bottom: calc((48rem/2) + 9.6rem);
+    padding-top: 10rem;
+    padding-bottom: calc((32rem/2));
+    padding: 50px;
   }
 
 }
@@ -3710,7 +3713,7 @@ p.lead{
 
 .s-download .download-badges {
   list-style: none;
-  margin: -2.2rem 0 6.2rem -6px;
+  margin: 1.2rem 0 6.2rem -6px;
 }
 
 .s-download .download-badges li {
@@ -3736,7 +3739,7 @@ p.lead{
     background-repeat: no-repeat;
     background-position: center;
     background-size: 4%;
-    height: 70px;
+    height: 30px;
     width: 100%;
 }
 
