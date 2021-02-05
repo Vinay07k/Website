@@ -32,7 +32,7 @@
  *  # header styles
  *    ## header logo
  *    ## navigation 
- *    ## menu trigger
+ *    ##  trigger
  *  # home
  *    ## home content
  *    ## home button section
@@ -533,8 +533,8 @@ form,
  * ## pace.js styles - minimal 
  * ------------------------------------------------------------------- */
 .pace {
-  -webkit-pointer-events: none;
-  pointer-events: none;
+  -webkit--events: none;
+  -events: none;
   -webkit-user-select: none;
   -moz-user-select: none;
   user-select: none;
@@ -826,7 +826,7 @@ select {
   height: 8px;
   width: 8px;
   margin-top: -7px;
-  pointer-events: none;
+  -events: none;
   position: absolute;
   right: 2.4rem;
   top: 50%;
@@ -981,7 +981,7 @@ input[type="button"] {
   text-decoration: none;
   text-align: center;
   white-space: nowrap;
-  cursor: pointer;
+  cursor: ;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   border-radius: 4px;
@@ -1094,7 +1094,7 @@ input::-moz-focus-inner {
   position: absolute;
   right: 1.6rem;
   top: 1.6rem;
-  cursor: pointer;
+  cursor: ;
 }
 
 .alert-box__close.fa {
@@ -1126,9 +1126,9 @@ input::-moz-focus-inner {
  * ## additional typo styles 
  * ------------------------------------------------------------------- */
 
-/* drop cap 
+/* drop  
  * ----------------------------------------------- */
-.drop-cap:first-letter {
+.drop-:first-letter {
   float: left;
   margin: 0;
   padding: 1.6rem .8rem 0 0;
@@ -1553,7 +1553,7 @@ input::-moz-focus-inner {
   height: 27px;
   margin: 0;
   padding: 9px;
-  cursor: pointer;
+  cursor: ;
 }
 
 .slick-slider .slick-dots li button {
@@ -1566,7 +1566,7 @@ input::-moz-focus-inner {
   border: none;
   padding: 0;
   margin: 0;
-  cursor: pointer;
+  cursor: ;
   font: 0/0 a;
   text-shadow: none;
   color: transparent;
@@ -1642,7 +1642,7 @@ input::-moz-focus-inner {
 
 @media only screen and (max-width:500px) {
   .display-1 {
-    font-size: 3.8rem !important;
+    font-size: 4.6rem !important;
     letter-spacing: normal !important;
     line-height: normal !important;
   }
@@ -1661,7 +1661,7 @@ input::-moz-focus-inner {
 
 @media only screen and (max-width:400px) {
   .display-1 {
-    font-size: 3.2rem !important;
+    font-size: 4.3rem !important;
     letter-spacing: normal !important;
     line-height: normal !important;
   }
@@ -1819,9 +1819,9 @@ input::-moz-focus-inner {
 
 
 /* ------------------------------------------------------------------- 
- * ## menu trigger
+ * ##  trigger
  * ------------------------------------------------------------------- */
-.header-menu-toggle {
+.header--toggle {
   display: none;
   height: 42px;
   width: 42px;
@@ -1838,12 +1838,12 @@ input::-moz-focus-inner {
   top: 18px;
 }
 
-.header-menu-toggle:hover,
-.header-menu-toggle:focus {
+.header--toggle:hover,
+.header--toggle:focus {
   color: #ffffff;
 }
 
-.header-menu-toggle span {
+.header--toggle span {
   display: block;
   width: 24px;
   height: 2px;
@@ -1861,8 +1861,8 @@ input::-moz-focus-inner {
   top: 50%;
 }
 
-.header-menu-toggle span::before,
-.header-menu-toggle span::after {
+.header--toggle span::before,
+.header--toggle span::after {
   content: '';
   width: 100%;
   height: 100%;
@@ -1873,33 +1873,33 @@ input::-moz-focus-inner {
   left: 0;
 }
 
-.header-menu-toggle span::before {
+.header--toggle span::before {
   top: -9px;
 }
 
-.header-menu-toggle span::after {
+.header--toggle span::after {
   bottom: -9px;
 }
 
-.header-menu-toggle.is-clicked span {
+.header--toggle.is-clicked span {
   background-color: rgba(255, 255, 255, 0);
   -webkit-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
 }
 
-.header-menu-toggle.is-clicked span::before,
-.header-menu-toggle.is-clicked span::after {
+.header--toggle.is-clicked span::before,
+.header--toggle.is-clicked span::after {
   background-color: white;
 }
 
-.header-menu-toggle.is-clicked span::before {
+.header--toggle.is-clicked span::before {
   top: 0;
   -webkit-transform: rotate(135deg);
   -ms-transform: rotate(135deg);
   transform: rotate(135deg);
 }
 
-.header-menu-toggle.is-clicked span::after {
+.header--toggle.is-clicked span::after {
   bottom: 0;
   -webkit-transform: rotate(225deg);
   -ms-transform: rotate(225deg);
@@ -2020,7 +2020,7 @@ input::-moz-focus-inner {
     text-align: center;
   }
 
-  .header-menu-toggle {
+  .header--toggle {
     display: block;
   }
 
@@ -2035,7 +2035,7 @@ input::-moz-focus-inner {
     padding: 40px 40px 64px;
   }
 
-  .header-menu-toggle {
+  .header--toggle {
     right: 36px;
   }
 
@@ -2043,7 +2043,7 @@ input::-moz-focus-inner {
 
 
 /* -------------------------------------------------------------------
- * make sure the menu is visible on larger screens
+ * make sure the  is visible on larger screens
  * ------------------------------------------------------------------- */
 @media only screen and (min-width:801px) {
   .header-nav-wrap {
@@ -3735,7 +3735,7 @@ p.lead{
 }
 
 .logo{
-  background-image: url(https://raw.githubusercontent.com/Vinay07k/Frenzy_chatApp/master/college%20logo.png);
+  background-image: url(https://raw.githubusercontent.com/Vinay07k/Frenzy_chatApp/master/%20logo.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 4%;
